@@ -41,6 +41,7 @@
             this.txt5 = new System.Windows.Forms.TextBox();
             this.txt6 = new System.Windows.Forms.TextBox();
             this.btn1 = new System.Windows.Forms.Button();
+            this.btn2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl1
@@ -151,11 +152,22 @@
             this.btn1.UseVisualStyleBackColor = true;
             this.btn1.Click += new System.EventHandler(this.btn1_Click);
             // 
+            // btn2
+            // 
+            this.btn2.Location = new System.Drawing.Point(428, 145);
+            this.btn2.Name = "btn2";
+            this.btn2.Size = new System.Drawing.Size(111, 41);
+            this.btn2.TabIndex = 13;
+            this.btn2.Text = "Voltar";
+            this.btn2.UseVisualStyleBackColor = true;
+            this.btn2.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Frm1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn2);
             this.Controls.Add(this.btn1);
             this.Controls.Add(this.txt6);
             this.Controls.Add(this.txt5);
@@ -192,6 +204,7 @@
         private System.Windows.Forms.TextBox txt5;
         private System.Windows.Forms.TextBox txt6;
         private System.Windows.Forms.Button btn1;
+        private System.Windows.Forms.Button btn2;
     }
 }
 

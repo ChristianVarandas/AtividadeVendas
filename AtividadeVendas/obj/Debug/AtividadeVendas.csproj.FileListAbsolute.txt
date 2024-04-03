@@ -8,3 +8,4 @@ C:\Users\2JD\Documents\Alex_e_Christian_2JD\AtividadeVendas\AtividadeVendas\obj\
 C:\Users\2JD\Documents\Alex_e_Christian_2JD\AtividadeVendas\AtividadeVendas\obj\Debug\AtividadeVendas.csproj.CoreCompileInputs.cache
 C:\Users\2JD\Documents\Alex_e_Christian_2JD\AtividadeVendas\AtividadeVendas\obj\Debug\AtividadeVendas.exe
 C:\Users\2JD\Documents\Alex_e_Christian_2JD\AtividadeVendas\AtividadeVendas\obj\Debug\AtividadeVendas.pdb
+C:\Users\2JD\Documents\Alex_e_Christian_2JD\AtividadeVendas\AtividadeVendas\obj\Debug\AtividadeVendas.Frm2.resources

@@ -35,11 +35,17 @@ namespace AtividadeVendas
             vc = Convert.ToDouble(txt2.Text);
             qcv = Convert.ToDouble(txt3.Text);
             vt = Convert.ToDouble(txt4.Text);
-            result = sf + vc + vt;
-            txt5.Text = result.ToString();
             result2 = vt * 5 / 100;
             txt6.Text = result2.ToString();
+            result = sf + vc + result2;
+            txt5.Text = result.ToString();
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Frm2 tela1 = new Frm2();
+            tela1.Show();
         }
     }
     }
