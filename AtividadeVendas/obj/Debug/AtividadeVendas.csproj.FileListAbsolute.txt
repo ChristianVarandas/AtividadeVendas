@@ -9,3 +9,15 @@ C:\Users\2JD\Documents\Alex_e_Christian_2JD\AtividadeVendas\AtividadeVendas\obj\
 C:\Users\2JD\Documents\Alex_e_Christian_2JD\AtividadeVendas\AtividadeVendas\obj\Debug\AtividadeVendas.exe
 C:\Users\2JD\Documents\Alex_e_Christian_2JD\AtividadeVendas\AtividadeVendas\obj\Debug\AtividadeVendas.pdb
 C:\Users\2JD\Documents\Alex_e_Christian_2JD\AtividadeVendas\AtividadeVendas\obj\Debug\AtividadeVendas.Frm2.resources
+C:\Users\2JD\Documents\Alex_e_Christian_2JD\POO\Atividades\AtividadeVendas\AtividadeVendas\bin\Debug\AtividadeVendas.exe.config
+C:\Users\2JD\Documents\Alex_e_Christian_2JD\POO\Atividades\AtividadeVendas\AtividadeVendas\bin\Debug\AtividadeVendas.exe
+C:\Users\2JD\Documents\Alex_e_Christian_2JD\POO\Atividades\AtividadeVendas\AtividadeVendas\bin\Debug\AtividadeVendas.pdb
+C:\Users\2JD\Documents\Alex_e_Christian_2JD\POO\Atividades\AtividadeVendas\AtividadeVendas\obj\Debug\AtividadeVendas.csproj.AssemblyReference.cache
+C:\Users\2JD\Documents\Alex_e_Christian_2JD\POO\Atividades\AtividadeVendas\AtividadeVendas\obj\Debug\AtividadeVendas.Frm1.resources
+C:\Users\2JD\Documents\Alex_e_Christian_2JD\POO\Atividades\AtividadeVendas\AtividadeVendas\obj\Debug\AtividadeVendas.Frm2.resources
+C:\Users\2JD\Documents\Alex_e_Christian_2JD\POO\Atividades\AtividadeVendas\AtividadeVendas\obj\Debug\AtividadeVendas.Frm3.resources
+C:\Users\2JD\Documents\Alex_e_Christian_2JD\POO\Atividades\AtividadeVendas\AtividadeVendas\obj\Debug\AtividadeVendas.Properties.Resources.resources
+C:\Users\2JD\Documents\Alex_e_Christian_2JD\POO\Atividades\AtividadeVendas\AtividadeVendas\obj\Debug\AtividadeVendas.csproj.GenerateResource.cache
+C:\Users\2JD\Documents\Alex_e_Christian_2JD\POO\Atividades\AtividadeVendas\AtividadeVendas\obj\Debug\AtividadeVendas.csproj.CoreCompileInputs.cache
+C:\Users\2JD\Documents\Alex_e_Christian_2JD\POO\Atividades\AtividadeVendas\AtividadeVendas\obj\Debug\AtividadeVendas.exe
+C:\Users\2JD\Documents\Alex_e_Christian_2JD\POO\Atividades\AtividadeVendas\AtividadeVendas\obj\Debug\AtividadeVendas.pdb

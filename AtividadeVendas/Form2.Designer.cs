@@ -32,6 +32,8 @@
             this.MenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.vendasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.nadadorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.funcionáriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ms1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,7 +51,9 @@
             // MenuItem1
             // 
             this.MenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.vendasToolStripMenuItem});
+            this.vendasToolStripMenuItem,
+            this.nadadorToolStripMenuItem,
+            this.funcionáriosToolStripMenuItem});
             this.MenuItem1.Name = "MenuItem1";
             this.MenuItem1.Size = new System.Drawing.Size(50, 20);
             this.MenuItem1.Text = "Menu";
@@ -67,6 +71,19 @@
             this.sairToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
             this.sairToolStripMenuItem.Text = "Sair";
             this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
+            // 
+            // nadadorToolStripMenuItem
+            // 
+            this.nadadorToolStripMenuItem.Name = "nadadorToolStripMenuItem";
+            this.nadadorToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.nadadorToolStripMenuItem.Text = "Nadador";
+            this.nadadorToolStripMenuItem.Click += new System.EventHandler(this.nadadorToolStripMenuItem_Click);
+            // 
+            // funcionáriosToolStripMenuItem
+            // 
+            this.funcionáriosToolStripMenuItem.Name = "funcionáriosToolStripMenuItem";
+            this.funcionáriosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.funcionáriosToolStripMenuItem.Text = "Funcionários";
             // 
             // Frm2
             // 
@@ -90,5 +107,7 @@
         private System.Windows.Forms.ToolStripMenuItem MenuItem1;
         private System.Windows.Forms.ToolStripMenuItem vendasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem nadadorToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem funcionáriosToolStripMenuItem;
     }
 }

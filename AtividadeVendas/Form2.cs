@@ -28,5 +28,12 @@ namespace AtividadeVendas
         {
             Application.Exit();
         }
+
+        private void nadadorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Frm3 tela2 = new Frm3();
+            tela2.Show();
+        }
     }
 }
