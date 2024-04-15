@@ -113,6 +113,7 @@
             this.Controls.Add(this.lbl2);
             this.Controls.Add(this.lbl1);
             this.Name = "Frm3";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form3";
             this.Load += new System.EventHandler(this.Form3_Load);
             this.ResumeLayout(false);

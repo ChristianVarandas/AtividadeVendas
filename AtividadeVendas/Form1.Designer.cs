@@ -42,6 +42,7 @@
             this.txt6 = new System.Windows.Forms.TextBox();
             this.btn1 = new System.Windows.Forms.Button();
             this.btn2 = new System.Windows.Forms.Button();
+            this.btn3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl1
@@ -162,11 +163,22 @@
             this.btn2.UseVisualStyleBackColor = true;
             this.btn2.Click += new System.EventHandler(this.button1_Click);
             // 
+            // btn3
+            // 
+            this.btn3.Location = new System.Drawing.Point(52, 209);
+            this.btn3.Name = "btn3";
+            this.btn3.Size = new System.Drawing.Size(135, 36);
+            this.btn3.TabIndex = 14;
+            this.btn3.Text = "Limpar";
+            this.btn3.UseVisualStyleBackColor = true;
+            this.btn3.Click += new System.EventHandler(this.btn3_Click);
+            // 
             // Frm1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn3);
             this.Controls.Add(this.btn2);
             this.Controls.Add(this.btn1);
             this.Controls.Add(this.txt6);
@@ -205,6 +217,7 @@
         private System.Windows.Forms.TextBox txt6;
         private System.Windows.Forms.Button btn1;
         private System.Windows.Forms.Button btn2;
+        private System.Windows.Forms.Button btn3;
     }
 }
 

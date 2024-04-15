@@ -47,5 +47,15 @@ namespace AtividadeVendas
             Frm2 tela1 = new Frm2();
             tela1.Show();
         }
+
+        private void btn3_Click(object sender, EventArgs e)
+        {
+            txt1.Clear();
+            txt2.Clear();
+            txt3.Clear();
+            txt4.Clear();
+            txt5.Clear();
+            txt6.Clear();
+        }
     }
     }

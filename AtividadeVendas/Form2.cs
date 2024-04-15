@@ -35,5 +35,12 @@ namespace AtividadeVendas
             Frm3 tela2 = new Frm3();
             tela2.Show();
         }
+
+        private void funcionáriosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Frm4 tela3 = new Frm4();
+            tela3.Show();
+        }
     }
 }

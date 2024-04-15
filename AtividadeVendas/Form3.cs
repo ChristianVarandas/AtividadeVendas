@@ -57,7 +57,8 @@ namespace AtividadeVendas
 
         private void btn2_Click(object sender, EventArgs e)
         {
-
+            txt1.Clear();
+            txt2.Clear();
         }
     }
 }

@@ -39,6 +39,10 @@
             this.btn1 = new System.Windows.Forms.Button();
             this.btn2 = new System.Windows.Forms.Button();
             this.btn3 = new System.Windows.Forms.Button();
+            this.txt5 = new System.Windows.Forms.TextBox();
+            this.txt6 = new System.Windows.Forms.TextBox();
+            this.lbl5 = new System.Windows.Forms.Label();
+            this.lbl6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lbl1
@@ -108,9 +112,9 @@
             // 
             // btn1
             // 
-            this.btn1.Location = new System.Drawing.Point(100, 240);
+            this.btn1.Location = new System.Drawing.Point(138, 250);
             this.btn1.Name = "btn1";
-            this.btn1.Size = new System.Drawing.Size(75, 23);
+            this.btn1.Size = new System.Drawing.Size(75, 28);
             this.btn1.TabIndex = 8;
             this.btn1.Text = "Calcular";
             this.btn1.UseVisualStyleBackColor = true;
@@ -118,27 +122,65 @@
             // 
             // btn2
             // 
-            this.btn2.Location = new System.Drawing.Point(100, 298);
+            this.btn2.Location = new System.Drawing.Point(335, 250);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(75, 28);
             this.btn2.TabIndex = 9;
             this.btn2.Text = "Voltar";
             this.btn2.UseVisualStyleBackColor = true;
+            this.btn2.Click += new System.EventHandler(this.btn2_Click);
             // 
             // btn3
             // 
-            this.btn3.Location = new System.Drawing.Point(100, 269);
+            this.btn3.Location = new System.Drawing.Point(240, 250);
             this.btn3.Name = "btn3";
-            this.btn3.Size = new System.Drawing.Size(75, 23);
+            this.btn3.Size = new System.Drawing.Size(75, 28);
             this.btn3.TabIndex = 10;
             this.btn3.Text = "Limpar";
             this.btn3.UseVisualStyleBackColor = true;
+            this.btn3.Click += new System.EventHandler(this.btn3_Click);
+            // 
+            // txt5
+            // 
+            this.txt5.Location = new System.Drawing.Point(388, 115);
+            this.txt5.Name = "txt5";
+            this.txt5.Size = new System.Drawing.Size(100, 20);
+            this.txt5.TabIndex = 11;
+            // 
+            // txt6
+            // 
+            this.txt6.Location = new System.Drawing.Point(388, 177);
+            this.txt6.Name = "txt6";
+            this.txt6.Size = new System.Drawing.Size(100, 20);
+            this.txt6.TabIndex = 12;
+            // 
+            // lbl5
+            // 
+            this.lbl5.AutoSize = true;
+            this.lbl5.Location = new System.Drawing.Point(385, 99);
+            this.lbl5.Name = "lbl5";
+            this.lbl5.Size = new System.Drawing.Size(108, 13);
+            this.lbl5.TabIndex = 13;
+            this.lbl5.Text = "Nome do funcionário:";
+            // 
+            // lbl6
+            // 
+            this.lbl6.AutoSize = true;
+            this.lbl6.Location = new System.Drawing.Point(385, 155);
+            this.lbl6.Name = "lbl6";
+            this.lbl6.Size = new System.Drawing.Size(77, 13);
+            this.lbl6.TabIndex = 14;
+            this.lbl6.Text = "Salário líquido:";
             // 
             // Frm4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lbl6);
+            this.Controls.Add(this.lbl5);
+            this.Controls.Add(this.txt6);
+            this.Controls.Add(this.txt5);
             this.Controls.Add(this.btn3);
             this.Controls.Add(this.btn2);
             this.Controls.Add(this.btn1);
@@ -151,6 +193,7 @@
             this.Controls.Add(this.lbl2);
             this.Controls.Add(this.lbl1);
             this.Name = "Frm4";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form4";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -170,5 +213,9 @@
         private System.Windows.Forms.Button btn1;
         private System.Windows.Forms.Button btn2;
         private System.Windows.Forms.Button btn3;
+        private System.Windows.Forms.TextBox txt5;
+        private System.Windows.Forms.TextBox txt6;
+        private System.Windows.Forms.Label lbl5;
+        private System.Windows.Forms.Label lbl6;
     }
 }
